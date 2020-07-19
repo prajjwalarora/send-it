@@ -1,0 +1,203 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+    background-color: #206BB1;
+    height: 5rem;
+}
+
+
+@media screen and (max-width:520px){
+    .sync-img{
+        visibility: hidden;
+    }
+    #navbarNav {
+        background-color: #206BB1;
+    }
+
+    .left-sec {
+        text-align: center;
+    }
+
+    .text-center{
+        width: 100%;
+        margin-left: 4rem;
+    }
+    .social{
+        margin-left: 50%;
+    }
+    .t_c {
+        margin-top: 4.5rem;
+    }
+    .copy {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .social {
+        margin-left: -5px;
+    }
+
+    .ftr-img {
+        margin-top: 2rem;
+    }
+}
+
+.nav-item .active{
+    text-decoration: underline;
+}
+
+.top-section{
+    background-color: #4CBBB9;
+    height: 90vh;
+}
+
+.logo-img{
+    height: 170px;
+    width: 330px;
+}
+
+.right-sec{
+    height: 30rem;
+}
+
+.left-sec{
+    font-size: 20px;
+    color: #fff;
+    height: 30rem;
+}
+
+.top{
+    margin-top: 100px;
+}
+
+.text-center{
+    width: 60%;
+}
+
+@media screen and (min-width:521px){
+    .ftr-img {
+        height: 7rem;
+        width: 7rem;
+        margin-top: 10rem;
+    }
+    
+    .features-section {
+        height: 500px;
+        margin: 7rem auto;
+    }
+
+    .top-section{
+        background-color: #4CBBB9;
+        height: 100vh;
+    }
+    .top{
+        margin-top: 200px;
+    }
+}
+
+.ftr-img {
+    height: 7rem;
+    width: 7rem;
+}
+
+.features-section {
+    margin: 7rem auto;
+}
+
+.reviews {
+    background: #4CBBB9;
+    text-align: center;
+    text-decoration: none;
+    height:70vh;
+}
+
+.carousel-item {
+    margin-top: 5rem;
+}
+ 
+.user-img{
+    height: 100px;
+    width: 100px;
+} 
+
+.user-name{
+    color: #fff;
+}
+
+.user{
+    margin-top: 5rem;
+}
+
+.carousel-item h2 {
+    font-size: 2rem;
+}
+
+footer{
+    background-color: #206BB1;
+    height: 75vh;
+    
+}
+input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #fff;
+    font-weight: lighter;
+    opacity: .8; 
+} 
+
+input[type="email"] {
+    height: 3rem;
+    color: #fff;
+}
+
+
+
+.signup {
+    width: 22rem;
+    height: 3rem;
+
+}
+
+input[type="email"]{
+    color: #fff;
+}
+
+ input[type="email"]:focus {
+    color: #fff;
+}
+
+small{
+    opacity: .5;
+    font-size: .01rem;
+}
+
+.small{
+    opacity: .8;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-div {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: transform .3s;
+}
+
+.social-div:hover {
+    transform: scale(1.2);
+}
+
+.copy {
+}
